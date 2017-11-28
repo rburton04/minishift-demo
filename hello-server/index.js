@@ -24,7 +24,7 @@ server.get('/healthz', function (req, res, next) {
 })
 
 server.get('/version', function (req, res, next){
-  res.json({ version: '1.1' })
+  res.json({ version: '1.2' })
   
   return next()
 })
